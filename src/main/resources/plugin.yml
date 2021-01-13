@@ -1,0 +1,11 @@
+name: MockBukkit-TestImplementation
+version: ${project.version}
+main: dev.heyitsskay.mockbukkittestimplementation.MockBukkitTestImplementation
+prefix: MB-TI
+authors: [ HeyItsSkay ]
+description: A test implementation plugin for developing with MockBukkit
+commands:
+  gmc:
+    description: Change to creative mode fast!
+  gms:
+    description: Change to survival mode fast!
