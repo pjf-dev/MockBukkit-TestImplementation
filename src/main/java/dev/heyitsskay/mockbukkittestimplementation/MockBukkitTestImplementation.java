@@ -11,6 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.java.JavaPluginLoader;
 
 import java.io.File;
+import java.util.Locale;
 
 public final class MockBukkitTestImplementation extends JavaPlugin implements CommandExecutor {
 

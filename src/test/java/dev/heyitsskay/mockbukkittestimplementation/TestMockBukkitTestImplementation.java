@@ -1,4 +1,4 @@
-package MockBukkit;
+package dev.heyitsskay.mockbukkittestimplementation;
 
 import be.seeseemelk.mockbukkit.MockBukkit;
 import be.seeseemelk.mockbukkit.ServerMock;
@@ -6,18 +6,16 @@ import be.seeseemelk.mockbukkit.entity.PlayerMock;
 import dev.heyitsskay.mockbukkittestimplementation.MockBukkitTestImplementation;
 import org.bukkit.GameMode;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Mukkit {
+public class TestMockBukkitTestImplementation {
 
     private ServerMock server;
     private MockBukkitTestImplementation plugin;
 
     @Before
-    public void setUp()
-    {
+    public void setUp() {
         server = MockBukkit.mock();
         plugin = MockBukkit.load(MockBukkitTestImplementation.class);
     }
@@ -39,8 +37,7 @@ public class Mukkit {
     }
 
     @After
-    public void tearDown()
-    {
+    public void tearDown() {
         MockBukkit.unmock();
     }
 
